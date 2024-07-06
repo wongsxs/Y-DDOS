@@ -8,9 +8,9 @@ def usage():
     print "#-----------------------------------------------------------#"
     print "#   \033[1;91mMenjalankan: " "python2 wongsxs.py " "<ip> <port> <packet> \033[1;32m    #"
     print "#                                                           #"
-    print "#\033[1;91m Creator:MR Y          wongsxs ddos               #"
-    print "#\033[1;91m Team   :MR Y            this is me             #"
-    print "#\033[1;91m Version:0.1                   0.1 wongsxs                    #"
+    print "#\033[1;91m Creator:MR Y          wongsxs ddos              #"
+    print "#\033[1;91m Team   :MR Y          this is me                #"
+    print "#\033[1;91m Version:0.1           0.1 wongsxs               #"
     print "#                                                           #"
     print "#                                                           #"
     print "#               \033[1;91m<--[wongsxs javanesse]-->               \033[1;32m#"
@@ -18,14 +18,6 @@ def usage():
     print "                        @@@@@@@@@@"
     print "                       @@@@@@@@@@@@"
     print "                     @@@@@@@@@@@@@@@@"
-window = Tk()
-window.title('Add Image')
-window = Canvas(window,width= 450, height = 450
-                window.pack()
-                image = PhotoImage(file = 'https://ibb.co.com/sj8vzsb')#photo file path
-window.create_image(0,0, anchor = NW, image = image)
-
-window.mainloop()
 def flood(victim, vport, duration):
     # Support ME... :)
     # Jadi disini saya membuat server, Ketika saya memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
